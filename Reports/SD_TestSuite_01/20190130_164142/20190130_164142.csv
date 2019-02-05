@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SD_TestSuite_01,,,2019-01-30 16:42:07,2019-01-30 16:42:42,35.142s,ERROR
+,,,,,,
+Test Cases/CalculatorTests/Addition,,,2019-01-30 16:42:09,2019-01-30 16:42:27,18.650s,PASSED
+"response = sendRequest(findTestObject(""CalculatorSoapAPI/Addition""))",,,2019-01-30 16:42:11,2019-01-30 16:42:27,16.688s,PASSED
+,,,,,,
+Test Cases/ListUserRestAPITC,,,2019-01-30 16:42:27,2019-01-30 16:42:35,7.663s,PASSED
+"sendRequest(findTestObject(""UserRestService/ListUserRestAPI""))",,,2019-01-30 16:42:28,2019-01-30 16:42:32,4.072s,PASSED
+"response = sendRequestAndVerify(findTestObject(""UserRestService/ListUserRestAPI""))",,,2019-01-30 16:42:32,2019-01-30 16:42:35,2.373s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name"", ""Charles"")",,,2019-01-30 16:42:35,2019-01-30 16:42:35,0.109s,PASSED
+,,,,,,
+Test Cases/TestCaseGet01,,,2019-01-30 16:42:35,2019-01-30 16:42:37,1.616s,ERROR
+"sendRequest(findTestObject(""API01""))",,,2019-01-30 16:42:36,2019-01-30 16:42:36,0.549s,PASSED
+"verifyElementText("""", """", """")",,,2019-01-30 16:42:36,2019-01-30 16:42:36,0.141s,ERROR
+,,,,,,
+Test Cases/TestHttpMethods,,,2019-01-30 16:42:37,2019-01-30 16:42:42,5.458s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/CreateUser""))",,,2019-01-30 16:42:38,2019-01-30 16:42:39,1.516s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/UpdateUser""))",,,2019-01-30 16:42:39,2019-01-30 16:42:40,0.997s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/ListUserRestAPI""))",,,2019-01-30 16:42:40,2019-01-30 16:42:41,1.057s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/DeleteUser""))",,,2019-01-30 16:42:41,2019-01-30 16:42:42,0.855s,PASSED

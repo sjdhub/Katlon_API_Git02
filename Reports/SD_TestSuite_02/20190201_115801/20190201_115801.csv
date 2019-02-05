@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SD_TestSuite_02,,,2019-02-01 11:58:07,2019-02-01 11:58:22,14.888s,PASSED
+,,,,,,
+Test Cases/TestHttpMethods,,,2019-02-01 11:58:07,2019-02-01 11:58:21,13.999s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/CreateUser""))",,,2019-02-01 11:58:09,2019-02-01 11:58:18,9.368s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/UpdateUser""))",,,2019-02-01 11:58:18,2019-02-01 11:58:19,1.103s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/ListUserRestAPI""))",,,2019-02-01 11:58:19,2019-02-01 11:58:21,1.139s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestService/DeleteUser""))",,,2019-02-01 11:58:21,2019-02-01 11:58:21,0.780s,PASSED

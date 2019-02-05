@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SD_TestSuite_02" time="1" tests="0" failures="0" errors="0">
+   <testsuite name="SD_TestSuite_02" tests="0" failures="0" errors="0" time="1" timestamp="2019-02-01 11:41:33" hostname="NewDesk - DESKTOP-AC5UCGN" id="Test Suites/SD_TestSuite_02">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sdese\\Katalon Studio\\API TEST Only1\\Reports\\SD_TestSuite_02\\20190201_114116"/>
+         <property name="logFiles" value="C:\\Users\\sdese\\Katalon Studio\\API TEST Only1\\Reports\\SD_TestSuite_02\\20190201_114116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NewDesk - DESKTOP-AC5UCGN"/>
+         <property name="hostAddress" value="192.168.1.245"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <system-out><![CDATA[2019-02-01 11:41:33 - [TEST_SUITE][PASSED] - SD_TestSuite_02: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
